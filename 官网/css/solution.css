@@ -1,0 +1,162 @@
+/*******************解决方案*******************/
+.solveCourse img{
+    width: 100%;
+}
+.solveCourse .course-box{
+    width: 3.75rem;
+    height: 2rem;
+}
+.solveCourse .solve-box{
+    position: relative;
+}
+.solve-box .solve-content{
+    position: absolute;
+    top: 0.3rem;
+    left: 0;
+    right: 0;
+}
+.solve-box .solve-content .solve-text h1{
+    font-size: 0.12rem;
+    color: #fff;
+    line-height: 0.22rem;
+    text-align: center;
+}
+.solve-box .solve-content .solve-way{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.25rem;
+    padding: 0 0.1rem;
+}
+.solve-box .solve-content .solve-way .solve-icon{
+    text-align: center;
+}
+.solve-box .solve-content .solve-way .solve-icon .icon-img{
+    display: inline-block;
+    text-align: center;
+    width: 0.36rem;
+    height: 0.36rem;
+}
+.solve-box .solve-content .solve-way .solve-icon .text{
+    font-size: 0.08rem;
+    color: #fff;
+    margin-top: 0.08rem;
+}
+/*********************集团公司介绍*********************/
+.introduce{
+    padding: 0.15rem 0.15rem;
+    background: #0095e2;
+}
+.introduce h1.title{
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+    text-align: center;
+    color: #fff;
+}
+.introduce p.text{
+    font-size: 0.12rem;
+    line-height: 0.2rem;
+    margin: 0.1rem 0 0.2rem 0;
+    color: #fff;
+}
+/*********************行业网站*********************/
+.website{
+    padding: 0.12rem 0 0.2rem 0;
+}
+.website .website-cont {
+    text-align: center;
+    color: #000;
+}
+.website .website-cont h1.big-title{
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+}
+.website .website-cont .sm-title{
+    font-size: 0.12rem;
+    line-height: 0.25rem;
+}
+.website .website-cont span.line{
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.02rem;
+    background: #000;
+}
+.website .site-type{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0.3rem;
+    margin-top: 0.15rem;
+}
+.website .site-type .type-img{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+/***************集团官网展示***************/
+.solveCourse .site-show{
+    width: 3.75rem;
+    height: 1.28rem;
+}
+/*************行业服务优势*************/
+.advantage{
+    position: relative;
+}
+.advantage .bg-advantage {
+    width: 3.75rem;
+    height: 2rem;
+}
+.advantage .content{
+    position: absolute;
+    top: 0.24rem;
+    left: 50%;
+    margin-left: -1.54rem;
+}
+.advantage .content .text-box h2.title{
+    font-size: 0.16rem;
+    line-height: 0.22rem;
+    text-align: center;
+    color: #fff;
+}
+.advantage .content .advantage-box{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.16rem;
+}
+.advantage .content .advantage-box .img-box{
+    position: relative;
+    width: 0.77rem;
+    height: 0.98rem;
+}
+.advantage .content .advantage-box .text{
+    font-size: 0.12rem;
+    position: absolute;
+    bottom: 0.15rem;
+    margin-left: 0.12rem;
+}
+.advantage-img{
+    text-align: center;
+}
+/*****************集团公司解决案例*****************/
+.solve-case .case-title{
+    margin-top: 0.1rem;
+}
+.solve-case .case-title h3{
+    font-size: 0.12rem;
+    line-height: 0.2rem;
+}
+.solve-case .site-type{
+    justify-content: space-between;
+    padding: 0 0.16rem;
+}
+.solve-case .site-type .type-img{
+    width: 1rem;
+    height: 0.77rem;
+    box-shadow: 0 0 0.1rem #eee;
+}
+.solve-way .solve-icon .img_act{
+    display: none;
+}
+.solve-way .active .img_act{
+    display: block;
+}
+.solve-way .active .imgs{
+    display: none;
+}

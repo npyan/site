@@ -1,0 +1,33 @@
+.content-box{
+    padding: 0 0.16rem;
+}
+.content-box .title-box{
+    text-align: center;
+}
+.content-box .title-box .title{
+    font-size: 0.16rem;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 0.19rem;
+}
+.content-box .title-box .title-data{
+    font-size: 0.1rem;
+    color: #000000;
+    margin-top: 0.1rem;
+    line-height: 0.13rem;
+}
+.content-box .content-img{
+    width: 3.43rem;
+    height: auto;
+    margin-top: 0.23rem;
+}
+.content-box .content-img img{
+    width: 100%;
+}
+.content-box .footer-title{
+    font-size: 0.12rem;
+    color: #000;
+    font-weight: bold;
+    margin-top: 0.18rem;
+    margin-bottom: 0.2rem;
+}

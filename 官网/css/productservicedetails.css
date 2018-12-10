@@ -1,0 +1,56 @@
+.exhibition{
+
+}
+.exhibition .exhibition-img{
+    height: 1.68rem;
+    width: 100%;
+    position: relative;
+}
+.exhibition .exhibition-img img{
+    max-width: 100%;
+}
+.exhibition .exhibition-img .exhibition-title {
+    padding: 0 .16rem;
+    position: absolute;
+    top: 0.3rem;
+}
+.exhibition .exhibition-img .exhibition-title .title{
+    font-size: 0.14rem;
+    color: #fff;
+}
+.exhibition .exhibition-img .exhibition-title .content{
+    font-size: 0.12rem;
+    color: #fff;
+    width: 1.96rem;
+    margin-top: 0.11rem;
+    line-height: 0.18rem;
+}
+
+.exhibition .exhibition-img-a{
+    height: 1.68rem;
+    width: 100%;
+    position: relative;
+}
+.exhibition .exhibition-img-a img{
+    max-width: 100%;
+}
+.exhibition .exhibition-img-a .exhibition-title {
+    padding: 0 .16rem;
+    position: absolute;
+    top: 0.3rem;
+    right: 0;
+}
+.exhibition .exhibition-img-a .exhibition-title .title{
+    font-size: 0.14rem;
+    color: #000;
+    font-weight: bold;
+    text-align: right;
+}
+.exhibition .exhibition-img-a .exhibition-title .content{
+    font-size: 0.12rem;
+    color: #000;
+    width: 1.96rem;
+    margin-top: 0.11rem;
+    line-height: 0.18rem;
+    text-align: right;
+}

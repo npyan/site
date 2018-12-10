@@ -1,0 +1,120 @@
+.serviceCase{
+    padding: 0.1rem 0.15rem;
+}
+.goods-content .title{
+    font-size: 0.18rem;
+    color: #000;
+    line-height: 0.35rem;
+}
+.goods-content .text{
+    font-size: 0.1rem;
+    color: #707070;
+    line-height: 0.18rem;
+}
+.goods-content .list-box .list-cont{
+    font-size: 0.12rem;
+    padding: 0.08rem;
+    margin: 0.15rem 0;
+    border: 1px dashed #000;
+    color: #707070;
+    background: #EFEFF4;
+}
+.goods-content .list-cont .total-price{
+    margin-top: 0.15rem;
+}
+.goods-content .list-cont .total-price .price{
+    color: #ff0000;
+}
+.goods-content .list-box dl{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.goods-content .list-box .list-type{
+    margin-bottom: 0.15rem;
+}
+.goods-content .list-box dl dt{
+    font-size: 0.12rem;
+    margin-right: 0.15rem;
+    color: #707070;
+}
+.goods-content .list-box dl dd{
+    width: 0.6rem;
+    height: 0.2rem;
+    font-size: 0.12rem;
+    line-height: 0.2rem;
+    text-align: center;
+    margin-right: 0.1rem;
+    color: #000;
+    background: #c2c2c2;
+}
+.goods-content .list-box dl dd.active{
+    color: #fff;
+    background: #007AFF;
+}
+.goods-content .list-box .contact{
+    text-align: center;
+    margin-top: 0.3rem;
+}
+.goods-content .list-box .contact .contact-btn{
+    display: inline-block;
+    width: 1.08rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    text-align: center;
+    font-size: 0.12rem;
+    -webkit-border-radius: 0.05rem;
+    -moz-border-radius: 0.05rem;
+    border-radius: 0.05rem;
+    color: #fff;
+    background: #ff0000;
+}
+.details{
+    margin-top: 0.18rem;
+}
+.details .details-list{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.02rem 0.18rem;
+    font-size: 0.12rem;
+    line-height: 0.24rem;
+    background: #000;
+    color: #fff;
+}
+.details .details-list li{
+    margin-right: 0.24rem;
+}
+.details .details-list li.active{
+    border-bottom: 1px solid #fff;
+}
+.details .details-cont .title{
+    font-size: 0.12rem;
+    line-height: 0.32rem;
+    color: #000;
+}
+.details .details-cont .details-img{
+    width: 3.43rem;
+    height: auto;
+}
+.details .details-cont .details-img img{
+    width: 100%;
+}
+
+.goods-box .img-box .big_img{
+    width: 3.43rem;
+    height: 3.43rem;
+}
+.goods-box .img-box .big_img img,
+.goods-box .img-box .small_img li{
+    width: 100%;
+}
+.goods-box .img-box .small_img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.06rem;
+}
+.goods-box .img-box .small_img li{
+    width: 0.64rem;
+    height: 0.64rem;
+}
+

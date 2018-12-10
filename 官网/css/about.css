@@ -1,0 +1,93 @@
+/*******************内容 - 标题*******************/
+.aboutWrap{
+    color: #000;
+    background: #fff;
+    padding: 0.12rem 0 0.25rem;
+}
+.aboutWrap img{
+    width: 100%;
+}
+.aboutWrap .title-box{
+    text-align: center;
+}
+.aboutWrap .title-box .cont-title{
+    font-size: 0.18rem;
+    line-height: 0.32rem;
+}
+.aboutWrap .title-box .subtitle{
+    font-size: 0.12rem;
+    line-height: 0.18rem;
+}
+.aboutWrap .company-info{
+    margin: 0.12rem 0 0.25rem 0;
+    padding: 0 0.16rem;
+}
+.aboutWrap .company-info .info-img{
+    float: left;
+    width: 1.4rem;
+    height: 1.86rem;
+    margin: 0 0.15rem 0.1rem 0;
+}
+.aboutWrap .company-info .info-text{
+    font-size: 0.12rem;
+    text-indent: 0.24rem;
+    color: #000;
+    line-height: 0.2rem;
+}
+
+
+/**********************艺之都服务领域**********************/
+.field .field-title{
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.44rem;
+    height: 0.44rem;
+    margin-bottom: 0.1rem;
+    color: #007AFF;
+    background: #e3e3e3;
+}
+.field .field-item{
+    padding: 0.1rem 0.16rem;
+}
+.field .field-item .item-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.field .field-item .item-top .top-left{
+    width: 0.44rem;
+    height: 0.44rem;
+}
+.field .field-item .item-top .top-text h2{
+    font-size: 0.16rem;
+    color: #007AFF;
+    line-height: 0.2rem;
+    margin-left: 0.1rem;
+}
+.field .field-item .item-text{
+    font-size: 0.12rem;
+    line-height: 0.22rem;
+    margin: 0.1rem 0;
+    text-indent: 0.24rem;
+    color: #000;
+}
+.field .field-item .item-img{
+    width: 3.43rem;
+    height: 1.91rem;
+}
+
+
+/****************************合作伙伴****************************/
+.partner{
+    text-align: center;
+}
+.partner .partner-title{
+    font-size: 0.18rem;
+    margin: 0.25rem 0;
+    color: #007AFF;
+}
+.partner .partner-img{
+    display: inline-block;
+    width: 2.97rem;
+    height: 2.31rem;
+}

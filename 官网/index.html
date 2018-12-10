@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/border.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/public.js"></script>
+    <style>
+
+    </style>
+</head>
+<body id="mall">
+<!------------首页 - 头部------------>
+<div class="headWrap header-style">
+    <div class="heade-left">
+        <a href="javascript:;"><img class="img_logo" src="image/logo.png" alt=""></a>
+    </div>
+    <div class="head-right">
+        <div id="search_btn" class="search-btn"><img class="com-height" src="image/icon_search.png" alt=""></div>
+        <div id="search_bg" class="search-bg"></div>
+        <div id="search_wrap" class="search-wrap">
+            <div class="search-box">
+                <input type="text" class="search-bar">
+                <div class="search-icon"><img src="image/index_search.png" alt=""></div>
+            </div>
+            <p class="search-tips">搜索指定内容</p>
+            <ul class="search-list">
+                <li><a href="javascript:;">APP设计</a></li>
+                <li><a href="javascript:;">网站设计</a></li>
+                <li><a href="javascript:;">微信营销</a></li>
+                <li><a href="javascript:;">域名备案</a></li>
+                <li><a href="javascript:;">服务器</a></li>
+                <li><a href="javascript:;">电商网站</a></li>
+            </ul>
+            <div id="search_close" class="search-close"><img src="image/search_close.png" alt=""></div>
+        </div>
+        <a id="icons" href="javascript:;"><img class="com-height" src="image/icon_collapse.png" alt=""></a>
+    </div>
+    <div id="bgcolor" class="background"></div>
+    <nav id="navs" class="nav-list">
+        <ul class="nav-box">
+            <li class="act">
+                <a class="item" href="index.html">
+                    <span>首页</span>
+                </a>
+            </li>
+            <li><a class="item" href="productpreview.html"><span>产品预览</span></a></li>
+            <li><a class="item" href="productcase.html"><span>产品案例</span></a></li>
+            <li><a class="item" href="productservice.html"><span>产品服务</span></a>
+            <li><a class="item" href="solution.html"><span>解决方案</span></a></li>
+            <li><a class="item" href="news.html"><span>新闻资讯</span></a></li>
+            <li><a class="item" href="about.html"><span>关于我们</span></a></li>
+            <li><a class="item" href="contact.html"><span>联系我们</span></a></li>
+        </ul>
+        <p id="Closes" class="item Close"><span class="icon_index"></span><img src="image/Close.png" alt="Close"></p>
+    </nav>
+</div>
+
+<!------------首页 - 内容------------>
+<div class="contentWrap">
+    <!--轮播图-->
+    <div class="swiper-container" id="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href=""><img src="image/Bigpicture.png"></a></div>
+            <div class="swiper-slide"><a href=""><img src="image/Bigpicture-a.png"></a></div>
+            <div class="swiper-slide"><a href=""><img src="image/Bigpicture-b.png"></a></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--------专业定制开发-------->
+    <div class="typeWrap">
+        <h1 class="title">专业定制开发</h1>
+        <p class="text">产品覆盖手机、PC、APP、微信和电商各大平台</p>
+        <div class="type-img">
+            <img src="image/type_phone.png" alt="">
+            <img src="image/type_com.png" alt="">
+            <img src="image/type_app.png" alt="">
+            <img src="image/type_wx.png" alt="">
+            <img src="image/type_dn.png" alt="">
+        </div>
+    </div>
+    <!--------产品预览-------->
+    <div class="previewWrap item">
+        <div class="item-title">
+            <div class="item-left">
+                <img src="image/icon_preview.png" alt="">
+                <h3 class="title">产品预览</h3>
+                <p>PRODUCT <span>PREVIEW</span></p>
+            </div>
+            <a class="item-right" href="productpreview.html">更多</a>
+        </div>
+        <div class="content">
+            <a class="img-spacing" href="productpreview.html"><img src="image/preview_one.png" alt=""></a>
+            <a class="img-spacing" href="productpreview.html"><img src="image/preview_two.png" alt=""></a>
+            <a href="productpreview.html"><img src="image/preview_three.png" alt=""></a>
+            <a href="productpreview.html"><img src="image/preview_four.png" alt=""></a>
+        </div>
+    </div>
+    <!--------服务范围-------->
+    <div class="serviceWrap item">
+        <div class="item-title">
+            <div class="item-left">
+                <img src="image/icon_service.png" alt="">
+                <h3 class="title">服务范围</h3>
+                <p>PRODUCT <span>PREVIEW</span></p>
+            </div>
+            <a class="item-right" href="serviceCase.html">更多</a>
+        </div>
+        <div class="swiper-container" id="service_box">
+            <div class="swiper-wrapper content">
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">域名备案</h1>
+                    <p class="text">安全、稳定、高性能</p>
+                </a>
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">百度推广</h1>
+                    <p class="text">安全、稳定、可靠</p>
+                </a>
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">QQ营销</h1>
+                    <p class="text">安全、稳定、高效</p>
+                </a>
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">微信营销</h1>
+                    <p class="text">安全、稳定、成本低</p>
+                </a>
+
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">SEO优化</h1>
+                    <p class="text">安全、可靠</p>
+                </a>
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">网络培训</h1>
+                    <p class="text">安全、可靠</p>
+                </a>
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">APP开发</h1>
+                    <p class="text">安全可靠成本低</p>
+                </a>
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">租赁服务器</h1>
+                    <p class="text">安全、可靠稳定</p>
+                </a>
+
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">网店托管</h1>
+                    <p class="text">高效、低风险</p>
+                </a>
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">手机网站</h1>
+                    <p class="text">高效、低风险</p>
+                </a>
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">营销网站</h1>
+                    <p class="text">高效、低风险</p>
+                </a>
+                <a href="serviceCase.html" class="swiper-slide service-list">
+                    <div class="service-img"></div>
+                    <h1 class="title">视频营销</h1>
+                    <p class="text">高效、低风险</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--------产品服务-------->
+    <div class="productWrap item">
+        <div class="item-title">
+            <div class="item-left">
+                <img src="image/icon_services.png" alt="">
+                <h3 class="title">产品服务</h3>
+                <p>PRODUCT <span>PREVIEW</span></p>
+            </div>
+        </div>
+        <a class="content" href="productservice.html">
+            <img src="image/product_one.png" alt="">
+        </a>
+        <div class="product-text">
+            <h1 class="text">互联网能到的地方 <br>我们也能到</h1>
+        </div>
+    </div>
+    <!--------解决方案-------->
+    <div class="solveWrap item">
+        <div class="item-title">
+            <div class="item-left">
+                <img src="image/icon_solve.png" alt="">
+                <h3 class="title">解决方案</h3>
+                <p>PRODUCT <span>PREVIEW</span></p>
+            </div>
+        </div>
+        <div class="content">
+            <img src="image/solve_img.png" alt="">
+        </div>
+        <div class="solve-box">
+            <a href="solveCase.html?type=0" class="site-link">
+                <div class="site-solve com-box"><img src="image/site_solve.png" alt=""></div>
+                <h2 class="site-text solve-text">网站解决方</h2>
+            </a>  <!--网站解决方-->
+            <a href="solveCase.html?type=1" class="move-link com-link">
+                <div class="move-solve com-img com-box"><img src="image/move_solve.png" alt=""></div>
+                <h2 class="move-text solve-text">移动解决方案</h2>
+            </a>  <!--移动解决方案-->
+            <a href="solveCase.html?type=2" class="finance-link com-link">
+                <div class="finance-solve com-img com-box"><img src="image/solve_com.png" alt=""></div>
+                <h2 class="finance-text solve-text">金融解决方案</h2>
+            </a> <!--金融解决方案-->
+            <a href="solveCase.html?type=3" class="retailers-link com-link">
+                <div class="retailers-solve com-img com-box"><img src="image/solve_com.png" alt=""></div>
+                <h2 class="retailers-text solve-text">电商解决方案</h2>
+            </a> <!--电商解决方案-->
+            <a href="solveCase.html?type=4" class="game-link com-link">
+                <div class="game-solve com-img com-box"><img src="image/move_solve.png" alt=""></div>
+                <h2 class="game-text solve-text">游戏解决方案</h2>
+            </a>  <!--游戏解决方案-->
+            <a href="solveCase.html?type=5" class="other-link com-link">
+                <div class="other-solve com-img com-box"><img src="image/solve_com.png" alt=""></div>
+                <h2 class="other-text solve-text">其他解决方案</h2>
+            </a>  <!--其他解决方案-->
+        </div>
+    </div>
+    <!--------产品案例-------->
+    <div class="exampleWrap item">
+        <div class="item-title">
+            <div class="item-left">
+                <img src="image/icon_service.png" alt="">
+                <h3 class="title">产品案例</h3>
+                <p>SERVICE <span>SCOPE</span></p>
+            </div>
+            <a class="item-right" href="productcase.html">更多</a>
+        </div>
+        <div class="content">
+            <a class="example-list border img-spacing"  href="productcasedetails.html">
+                <div class="example-img"><img src="image/example_one.png" alt=""></div>
+                <p class="text">安逸花借呗袋APP</p>
+            </a>
+            <a class="example-list border img-spacing" href="productcasedetails.html">
+                <div class="example-img"><img src="image/example_two.png" alt=""></div>
+                <p class="text">晨光物流网站建设</p>
+            </a>
+            <a class="example-list border" href="productcasedetails.html">
+                <div class="example-img"><img src="image/example_three.png" alt=""></div>
+                <p class="text">同城约见APP</p>
+            </a>
+            <a class="example-list border" href="productcasedetails.html">
+                <div class="example-img"><img src="image/example_four.png" alt=""></div>
+                <p class="text">LOLAPP平台</p>
+            </a>
+        </div>
+    </div>
+    <!--------新闻资讯-------->
+    <div class="newsWrap item">
+        <div class="item-title">
+            <div class="item-left">
+                <img src="image/icon_service.png" alt="">
+                <h3 class="title">新闻资讯</h3>
+                <p>SERVICE <span>SCOPE</span></p>
+            </div>
+            <a class="item-right" href="news.html">更多</a>
+        </div>
+        <div class="content">
+            <ul class="news-list" id="news_list">
+                <li class="active">公司新闻</li>
+                <li>行业资讯</li>
+                <li>营销新闻</li>
+                <li>设计咨询</li>
+                <li>我的观点</li>
+            </ul>
+            <div id="news_cont">
+                <div class="news-cont news-tab">
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">1</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">1</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">1</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-tab" style="display: none;">
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">2</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">2</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-tab" style="display: none;">
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">3</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-tab" style="display: none;">
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">4</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">4</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="news-tab" style="display: none;">
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">5</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">5</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                    <a class="cont-list border" href="newsdetai.html">
+                        <div class="list-left">
+                            <h1 class="data">5</h1>
+                            <p class="year">2018-11</p>
+                            <p class="company">亿之都微信 <br>开发公司</p>
+                        </div>
+                        <div class="list-right">
+                            <h1 class="news-title">深圳微信开发关键词优化到百度首页的心得【网站排名优化日志】</h1>
+                            <p class="news-text">经过努力亿之都网络公司关键词深圳微信开发优化到百度首页</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------首页 - 底部------------>
+<footer class="footer-box">
+    <div class="footer-title">
+        艺之都&nbsp;&nbsp;&nbsp;&nbsp;一站式金牌网络服务商
+    </div>
+    <div class="footer-content">
+        <nav class="content-nav">
+            <a class="item" href="#">关于艺之都</a>
+            <a class="item" href="#">客户服务</a>
+            <a class="item" href="#">商业合作</a>
+            <a class="item" href="#">法律声明</a>
+            <a class="item" href="#">廉政举报</a>
+            <a class="item" href="#">荣誉查询</a>
+            <a class="item" href="#">友情链接</a>
+            <a class="item" href="#">网站地图</a>
+            <a class="item" href="#">联系我们</a>
+        </nav>
+        <nav class="content-nav-a">
+            <a class="item" href="#">深圳网站建设</a>
+            <a class="item" href="#">东莞网站建设</a>
+            <a class="item" href="#">广州网站建设</a>
+            <a class="item" href="#">上海网站建设</a>
+            <a class="item" href="#">北京网站建设</a>
+        </nav>
+        <div class="contact">
+            <div class="contact-left">
+                <p>网站开发：15118115078</p>
+                <p>业务邮箱：115669667@qq.com</p>
+                <p>网站运营：17688937080</p>
+                <p>APP开发：15626535572</p>
+                <p>客服邮箱：116110855@qq.com</p>
+                <p>游戏开发：15118115015</p>
+            </div>
+            <div class="contact-right">
+                <img src="image/qrcode.png" alt="">
+            </div>
+        </div>
+        <div class="address">
+            <p class="address-title">2007-2018 yizhidou.com    版权所有粤ICP备：14099120号-3</p>
+            <p class="address-title">深圳市艺之都网络科技有限公司 </p>
+            <p class="address-title">深圳市龙岗区坂田商业广场禾田步行街二层</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    $(function () {
+        var swiper = new Swiper('#service_box', {
+            spaceBetween: 7,
+            slidesPerView:'auto',
+            freeMode: true
+        });
+    });
+
+    // 轮播图
+    var swiper = new Swiper('#swiper', {
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
+        }
+    });
+
+    // 新闻切换
+    $().ready(function(){
+        $("#news_list li").click(function(){
+            var _index = $(this).index();
+            $("#news_cont>div").eq(_index).show().siblings().hide();
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    });
+
+    // 搜索的显示隐藏
+    $("#search_btn").click(function () {
+        $("#search_wrap").show();
+        $("#search_bg").show();
+    });
+    $("#search_bg").click(function () {
+        $("#search_wrap").hide();
+        $("#search_bg").hide();
+    })
+    $("#search_close").click(function () {
+        $("#search_wrap").hide();
+        $("#search_bg").hide();
+    })
+
+</script>
+</body>
+</html>
+

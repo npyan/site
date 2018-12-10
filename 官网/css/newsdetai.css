@@ -1,0 +1,37 @@
+.content-box{
+    padding: 0 0.16rem;
+}
+.content-box .title-box{
+    text-align: center;
+    margin-top: 0.16rem;
+}
+.content-box .title-box .title{
+    font-size: 0.14rem;
+    color: #000;
+    font-weight: bold;
+}
+.content-box .title-box .data{
+    font-size: 0.12rem;
+    color: #000;
+    margin-top: 0.02rem;
+}
+.content-box .img{
+    width: 3.43rem;
+    height: 1.98rem;
+    margin-top: 0.14rem;
+}
+.content-box .img img{
+    width: 100%;
+}
+.content-box .content{
+    font-size: 0.12rem;
+    line-height: 0.2rem;
+    color: #000;
+    margin-top: 0.13rem;
+}
+.content-box .content .item{
+    text-indent: 2em;
+}
+.content-box .content .item-box{
+    margin-bottom: 0.15rem;
+}

@@ -1,0 +1,393 @@
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    /* 解决IOS默认滑动很卡的情况 */
+    -webkit-overflow-scrolling : touch;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+/* 禁止缩放表单 */
+input[type="submit"], input[type="reset"], input[type="button"], input {
+    resize: none;
+    border: none;
+}
+/* 设置HTML5元素为块 */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body{
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+img{
+    display: block;
+}
+
+
+/* 初始化 */
+body, div, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button,
+form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup,
+menu, nav, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+em, i {
+    font-style: normal;
+}
+ul,li{
+    list-style-type: none;
+}
+strong {
+    font-weight: normal;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0
+
+}
+textarea {
+    resize:none; /*禁用了文本的拖拉，尤其在谷歌下*/
+}
+p {
+    word-wrap:break-word; /* 不够的单词自动换行 而不会被截掉 */
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{content:"";display: block;clear:both;}
+.clearfix{zoom:1;}
+
+.percent{
+    width: 100%;
+}
+
+
+/*公共样式头部*/
+.header-style{
+    height: 0.44rem;
+    background: #007aff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.16rem 0 0.12rem;
+    position: relative;
+}
+.header-style .left-icon{
+    width: 0.12rem;
+    height: 0.2rem;
+}
+.header-style .left-icon img{
+    width: 100%;
+    min-width: 100%;
+}
+.header-style .logo{
+    width: 1.03rem;
+    height: 0.4rem;
+}
+.header-style .logo img{
+    width: 100%;
+    min-height: 100%;
+}
+.header-style .right-icon{
+    width: 0.24rem;
+    height: 0.22rem;
+}
+.header-style .right-icon img{
+    width: 100%;
+}
+.Bigpicture{
+    max-width: 100%;
+    height: auto;
+}
+.Bigpicture img{
+    width: 100%;
+}
+.header-style .nav-list{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: black;
+    width: 2rem;
+    filter: alpha(opacity=50);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.9;
+    display: none;
+    z-index: 999;
+}
+.header-style .nav-list .item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 0.44rem;
+    padding-left: 0.65rem;
+}
+.header-style .nav-list .item img{
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-right: 0.16rem;
+}
+.header-style .nav-list .item span{
+    font-size: 0.14rem;
+    color: #fff;
+}
+.header-style .nav-list .item .item-img{
+    margin-left: 0.49rem;
+}
+.header-style .nav-list .Close{
+    margin-top: 0.7rem;
+    margin-bottom: 0.1rem;
+}
+.header-style .nav-list .item .item-index{
+    display: flex;
+    align-items: center;
+}
+.header-style .nav-list .Close{
+    padding-left: 0.28rem;
+}
+.act{
+    background: #007aff;
+}
+.header-style .background{
+    position: fixed;
+    background: rgba(255,255,255,0);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    z-index: 100;
+}
+.header-style .nav-list .nav-box li{
+    background-size: 0.24rem 0.24rem;
+    background-repeat: no-repeat;
+    background-position: 0.28rem center;
+}
+.header-style .nav-list .nav-box li:nth-child(1){
+    background-image: url("../image/index.png");
+}
+.header-style .nav-list .nav-box li:nth-child(2){
+    background-image: url("../image/browse.png");
+}
+.header-style .nav-list .nav-box li:nth-child(3){
+    background-image: url("../image/case.png");
+}
+.header-style .nav-list .nav-box li:nth-child(4){
+    background-image: url("../image/service.png");
+}
+.header-style .nav-list .nav-box li:nth-child(5){
+    background-image: url("../image/Solve.png");
+}
+.header-style .nav-list .nav-box li:nth-child(6){
+    background-image: url("../image/news.png");
+}
+.header-style .nav-list .nav-box li:nth-child(7){
+    background-image: url("../image/about.png");
+}
+.header-style .nav-list .nav-box li:nth-child(8){
+    background-image: url("../image/contact.png");
+}
+
+
+    /**************************轮播图**************************/
+.swiper-container {
+    font-size: 14px;
+    width: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide a{
+    display: inline-block;
+    width: 3.75rem;
+    height: 1.68rem;
+    overflow: hidden;
+}
+.swiper-slide a img{
+    width: 100%;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active{
+    background: #fff;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    width: 0.05rem;
+    height: 0.05rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    opacity: 1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0.08rem!important;
+}
+
+/*灰色背景*/
+.bj-style{
+    background: #EFEFF4;
+}
+
+/*底部*/
+.footer-box .footer-list{
+    display: flex;
+
+}
+.footer-box .footer-list .item{
+    text-align: center;
+    height: 0.48rem;
+    background: #707070;
+    width: 50%;
+}
+.footer-box .footer-list .item:nth-child(2){
+    border-left: 1px solid #565656;
+    border-right: 1px solid #565656;
+}
+.footer-box .footer-list .item .contact-img{
+    width: 0.24rem;
+    height: 0.24rem;
+    display: inline-block;
+    margin-top: 0.04rem;
+}
+.footer-box .footer-list .item .item-title{
+    font-size: 0.12rem;
+    color: #FFFFFF;
+    margin-top: -0.03rem;
+}
+.footer-box .footer-title{
+    height: 0.44rem;
+    line-height: 0.44rem;
+    background: #007AFF;
+    text-align: center;
+    font-size: 0.14rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.footer-box .footer-content{
+    background: #232020;
+    padding: 0 0.14rem 0 0.13rem;
+}
+.footer-box .footer-content .content-nav{
+    border-bottom: 1px solid #FEFEFE;
+    padding-bottom: 0.1rem;
+    padding-top: 0.05rem;
+}
+.footer-box .footer-content .content-nav .item{
+    display: inline-block;
+    margin-left: 0.1rem;
+    color: #fff;
+    font-size: 0.12rem;
+}
+.footer-box .footer-content .content-nav .item:nth-child(5n+1){
+    margin-left: 0;
+}
+.footer-box .footer-content .content-nav-a{
+    padding-top: 0.05rem;
+}
+.footer-box .footer-content .content-nav-a .item{
+    display: inline-block;
+    color: #fff;
+    font-size: 0.12rem;
+    margin-right: 0.1rem;
+}
+.footer-box .contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.03rem;
+    padding-right: 0.11rem;
+}
+.footer-box .contact .contact-left{
+    font-size: 0.12rem;
+    color: #FFFFFF;
+    line-height: 0.2rem;
+}
+.footer-box .contact .contact-right{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.footer-box .contact .contact-right img{
+    width: 100%;
+}
+.footer-box .address{
+    margin-top: 0.12rem;
+    padding-bottom: 0.1rem;
+}
+.footer-box .address .address-title{
+    font-size: 0.12rem;
+    color: #FFFFFF;
+    line-height: 0.2rem;
+    text-align: center;
+}
+
+.item .scan-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #525252;
+    display: none;
+    z-index: 999;
+}
+.item .scan-bg .scan-code{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -1.715rem;
+    margin-top: -1.715rem;
+    width: 3.43rem;
+    height: 3.43rem;
+    text-align: center;
+    background: #fff;
+    z-index: 9999;
+}
+.item .scan-code img{
+    display: inline-block;
+    margin-top: 0.55rem;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.item .scan-code p.title{
+    font-size: 0.12rem;
+    color: #000;
+    margin: 0.3rem 0 0.5rem;
+}
+.scan-close{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    display: none;
+    z-index: 9999;
+}
+
+
+
+
+
+

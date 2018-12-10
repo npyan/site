@@ -1,0 +1,150 @@
+.bj-box{
+    background: #232020;
+}
+.gray{
+    height: 0.1rem;
+    background: #EFEFF4;
+}
+.content-box{
+    padding: 0 0.15rem;
+}
+.content-box .title{
+    font-weight: bold;
+    font-size: 0.18rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 0.12rem;
+}
+.content-box .broadcast-box{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.3rem;
+    margin-top: 0.21rem;
+}
+.content-box .broadcast-box .left{
+    position: absolute;
+    z-index: 5;
+}
+.content-box .broadcast-box .left .item{
+    height: 0.24rem;
+    width: 0.98rem;
+    font-size: 0.1rem;
+    line-height: 0.22rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.17rem;
+}
+.content-box .broadcast-box .center{
+    width: 3.45rem;
+    height: 3.2rem;
+    overflow: hidden;
+}
+.content-box .broadcast-box .center .item{
+    width: 3.45rem;
+    height: 3.2rem;
+}
+
+.content-box .broadcast-box .center .item img{
+    width: 100%;
+}
+.content-box .broadcast-box .center .item{
+    display: none;
+    background: none;
+}
+.content-box .broadcast-box .center .act{
+    display: block;
+}
+.content-box .broadcast-box .right{
+    position: absolute;
+    right: 0;
+    z-index: 5;
+}
+.content-box .broadcast-box .right .item{
+    height: 0.24rem;
+    width: 0.98rem;
+    font-size: 0.1rem;
+    line-height: 0.22rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.17rem;
+}
+.act{
+    background:#007AFF;
+    display: block;
+}
+.leavingamessage{
+    background: #fff;
+    width: 3.44rem;
+    margin: 0 auto;
+}
+.leavingamessage .leavingamessage-content{
+    height: 1.15rem;
+    border: 1px solid #EFEFF4;
+    padding: 0.12rem 0.12rem;
+    font-size: 0.12rem;
+    color: #707070;
+}
+.leavingamessage .leavingamessage-input{
+    height: 0.45rem;
+    display: flex;
+    align-items: center;
+
+}
+.leavingamessage .leavingamessage-input input{
+    height: 0.28rem;
+    width: 2.58rem;
+    border: none;
+    outline: none;
+    background: #DADADA;
+    border-radius: 0.03rem;
+    margin-left: 0.1rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+.leavingamessage .leavingamessage-input button{
+    width: 0.6rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    background: #007AFF;
+    font-size: 0.12rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.03rem;
+    outline: none;
+    border: none;
+    margin-left: 0.07rem;
+}
+.customerservice{
+    margin-top: 0.2rem;
+    margin-bottom: 0.24rem;
+    display: flex;
+    padding: 0 0.71rem 0 0.71rem;
+}
+.customerservice .customerservice-qq{
+    width: 1.08rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    background: #007AFF;
+    font-size: 0.12rem;
+    color: #fff;
+    text-align: center;
+    display:block;
+    margin-right: 0.12rem;
+    border-radius: 0.03rem;
+}
+.customerservice .customerservice-wx{
+    width: 1.08rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    background: #007AFF;
+    font-size: 0.12rem;
+    color: #fff;
+    text-align: center;
+    display:block;
+    border-radius: 0.03rem;
+}

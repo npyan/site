@@ -1,0 +1,69 @@
+.main-img .main{
+    width: 3.75rem;
+    height: 1.2rem;
+}
+.main-img .main img, .main-img{
+    width: 100%;
+}
+.solve-way{
+    margin-top: 0.1rem;
+}
+.solve-way .solve-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0.1rem 0.1rem 0;
+    background: #fff;
+}
+.list-margin{
+    margin-bottom: 0.1rem;
+}
+.solve-way .solve-list li{
+    width: 0.92rem;
+    height: 0.2rem;
+    font-size: 0.12rem;
+    line-height: 0.2rem;
+    text-align: center;
+    border: 1px solid #007AFF;
+    -webkit-border-radius: 0.04rem;
+    -moz-border-radius: 0.04rem;
+    border-radius: 0.04rem;
+    color: #007AFF;
+}
+.solve-way .solve-list li.active{
+    background: #007AFF;
+    color: #fff;
+}
+.solve-way .solve-content{
+    padding: 0.1rem 0.16rem;
+}
+.solve-way .solve-content .item-cont{
+    background: #fff;
+}
+.solve-way .solve-content .cont-img{
+    width: 3.43rem;
+    height: 1.4rem;
+}
+.solve-way .solve-content .cont-img img{
+    width: 100%;
+}
+.solve-way .item-cont .cont-text{
+    padding: 0 0.1rem 0.1rem;
+}
+.solve-way .item-cont .cont-text .title{
+    font-size: 0.14rem;
+    line-height: 0.3rem;
+    color: #000;
+}
+.solve-way .item-cont .cont-text .text{
+    font-size: 0.1rem;
+    color: #000;
+    line-height: 0.16rem;
+}
+.solve-content{
+    display: none;
+}
+.active{
+    display: block;
+}

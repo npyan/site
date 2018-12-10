@@ -1,0 +1,472 @@
+/**************************首页 - 头部**************************/
+.headWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 0.44rem;
+    padding: 0 0.1rem;
+    background: #007aff;
+}
+.heade-left a, .head-right a{
+    display: block;
+}
+.heade-left a .img_logo{
+    width: 1.035rem;
+    height: 0.4rem;
+}
+.head-right{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.head-right a{
+    padding: 0 0.1rem;
+}
+.head-right img.com-height{
+    width: 0.24rem;
+    height: 0.24rem;
+}
+.head-right .search-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.head-right .search-wrap{
+    position: absolute;
+    top: 0.44rem;
+    left: 0;
+    z-index: 99;
+    width: 3.75rem;
+    height: 2.6rem;
+    padding: 0 0.16rem;
+    display: none;
+    box-shadow:  0 0.02rem 0.1rem #eee;
+    background: #fff;
+}
+.head-right .search-btn{
+    padding: 0 0.1rem;
+    border-right: 1px solid #eee;
+}
+.search-wrap .search-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c2c2c2;
+}
+.search-wrap .search-box .search-bar{
+    width: 3rem;
+    height: 0.3rem;
+    text-indent: 0.1rem;
+    margin-top: 0.1rem;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.search-wrap .search-box .search-icon{
+    width: 0.24rem;
+    height: 0.24rem;
+    margin-right: 0.1rem;
+}
+.search-wrap .search-box .search-icon img{
+    width: 100%;
+}
+.search-wrap .search-tips{
+    font-size: 0.12rem;
+    text-align: center;
+    color: #c2c2c2;
+    margin: 0.22rem 0;
+}
+.search-wrap .search-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.search-wrap .search-list li{
+    width: 30%;
+    text-align: center;
+}
+.search-wrap .search-list li a{
+    font-size: 0.12rem;
+    color: #0095e2;
+    line-height: 0.3rem;
+}
+#search_close{
+    position: absolute;
+    bottom: 0.2rem;
+    left: 50%;
+    margin-left: -0.14rem;
+    text-align: center;
+    width: 0.28rem;
+    height: 0.28rem;
+}
+#search_close img{
+    width: 100%;
+}
+
+
+
+
+/***********************专业定制开发***********************/
+.typeWrap{
+    text-align: center;
+    color: #333;
+    padding: 0.14rem 0.28rem;
+    background: #fff;
+}
+.typeWrap h1.title{
+    line-height: 0.46rem;
+    font-size: 0.18rem;
+}
+.typeWrap p.text{
+    font-size: 0.12rem;
+}
+.typeWrap .type-img{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 0.16rem;
+}
+.typeWrap .type-img img{
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 0 0.12rem;
+}
+
+/*****************************产品预览*****************************/
+.item img{
+    width: 100%;
+}
+.contentWrap .item{
+    padding: 0 0.12rem 0.12rem;
+    margin-top: 0.1rem;
+    background: #fff;
+}
+.contentWrap .item .item-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 0.42rem;
+    line-height: 0.42rem;
+}
+.contentWrap .item .item-title .item-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contentWrap .item .item-title .item-left img{
+    width: 0.24rem;
+    height: 0.24rem;
+}
+.contentWrap .item .item-title .item-left h3.title{
+    font-size: 0.14rem;
+    padding: 0 0.08rem;
+    color: #3b3b3b;
+}
+.contentWrap .item .item-title .item-left p{
+    font-size: 0.1rem;
+    font-weight: bold;
+    color: #bebebe;
+}
+.contentWrap .item .item-title .item-left p span{
+    color: #90c5ff;
+}
+.contentWrap .item .item-title .item-right{
+    display: inline-block;
+    font-size: 0.12rem;
+    padding-right: 0.24rem;
+    background: url("../image/enter.png") 0.2rem center no-repeat;
+    background-size: 0.24rem 0.24rem;
+    color: #9d9d9d;
+}
+.previewWrap .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.previewWrap .content a{
+    display: inline-block;
+    width: 1.72rem;
+    height: 0.8rem;
+}
+.img-spacing{
+    margin-bottom: 0.1rem;
+}
+
+/*********************服务范围*********************/
+.serviceWrap{
+    padding: 0 0.1rem;
+}
+.serviceWrap .content .service-list{
+    width: 0.8rem;
+    height: 1rem;
+    text-align: center;
+    margin-right: 0.11rem!important;
+    background: #f6f6f6;
+}
+.serviceWrap .content .service-list .service-img{
+    display: inline-block;
+    width: 0.48rem;
+    height: 0.48rem;
+    text-align: center;
+    margin-top: 0.08rem;
+    background-repeat: no-repeat;
+    background-size: 0.48rem 0.48rem;
+}
+.serviceWrap .content a:nth-child(1) .service-img{
+     background-image: url("../image/service_name.png");
+ }
+.serviceWrap .content a:nth-child(2) .service-img{
+    background-image: url("../image/service_baidu.png");
+}
+.serviceWrap .content a:nth-child(3) .service-img{
+    background-image: url("../image/service_qq.png");
+}
+.serviceWrap .content a:nth-child(4) .service-img{
+    background-image: url("../image/service_wx.png");
+}
+
+
+.serviceWrap .content a:nth-child(5) .service-img{
+    background-image: url("../image/seo_img.png");
+}
+.serviceWrap .content a:nth-child(6) .service-img{
+    background-image: url("../image/network_img.png");
+}
+.serviceWrap .content a:nth-child(7) .service-img{
+    background-image: url("../image/app_img.png");
+}
+.serviceWrap .content a:nth-child(8) .service-img{
+    background-image: url("../image/lease_img.png");
+}
+
+
+.serviceWrap .content a:nth-child(9) .service-img{
+    background-image: url("../image/taobao_img.png");
+}
+.serviceWrap .content a:nth-child(10) .service-img{
+    background-image: url("../image/phone_img.png");
+}
+.serviceWrap .content a:nth-child(11) .service-img{
+    background-image: url("../image/market_img.png");
+}
+.serviceWrap .content a:nth-child(12) .service-img{
+    background-image: url("../image/video_img.png");
+}
+
+
+
+.serviceWrap .content .service-list .title{
+    font-size: 10px;
+    color: #000;
+}
+.serviceWrap .content .service-list .text{
+    font-size: 0.08rem;
+    color: #000;
+}
+.swiper-slide{
+    display: inline-block!important;
+}
+.serviceWrap .content .service-list .title,
+.serviceWrap .content .service-list .text{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1;
+}
+
+
+
+
+/*********************产品服务*********************/
+.productWrap .content, .solveWrap .content{
+    width: 3.52rem;
+    height: 1.64rem;
+}
+.productWrap{
+    position: relative;
+}
+.productWrap .product-text{
+    position: absolute;
+    top: 1rem;
+    left: 1.2rem;
+    text-align: center;
+}
+.productWrap .product-text .text{
+    font-size: 0.16rem;
+    color: #fff;
+    line-height: 0.25rem;
+}
+
+/*********************解决方案*********************/
+.solveWrap{
+    position: relative;
+    border-top: none;
+}
+.solveWrap .content{
+    position: relative;
+    width: 3.52rem;
+    height: 1.8rem;
+}
+.solveWrap .solve-box{
+    position: absolute;
+    top: 0.42rem;
+    left: 0.12rem;
+}
+.solveWrap .solve-box .site-solve {
+    width: 0.42rem;
+    height: 0.48rem;
+    margin-top: 0.2rem;
+}
+.solveWrap .solve-box .com-img{
+    width: 0.23rem;
+    height: 0.26rem;
+    margin-top: 0.08rem;
+}
+.solveWrap .solve-box .solve-text {
+    font-size: 0.08rem;
+    color: #007AFF;
+}
+.solveWrap .solve-box a{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    background: #fff;
+}
+.solveWrap .solve-box  .site-link {
+    width: 1.1rem;
+    height: 1.1rem;
+}
+.solveWrap .solve-box .com-box{
+    display: inline-block;
+}
+.solveWrap .solve-box .com-link {
+    width: 0.55rem;
+    height: 0.55rem;
+}
+.solveWrap .solve-box  .site-link{
+    top: 0.07rem;
+    left: 0.4rem;
+}
+.solveWrap .solve-box .move-link{
+    top: 0.62rem;
+    left: 1.5rem;
+    background: #c4c4c4;
+}
+.solveWrap .solve-box .game-link{
+    top: 0.07rem;
+    left: 2.05rem;
+    background: #c4c4c4;
+}
+.solveWrap .solve-box .other-link{
+    top: 0.07rem;
+    left: 2.6rem;
+}
+.solveWrap .solve-box .retailers-link{
+    top: 0.62rem;
+    left: 2.05rem;
+}
+.solveWrap .solve-box .finance-link{
+    top: 1.17rem;
+    left: 1.5rem;
+}
+
+
+
+/*********************产品案例*********************/
+.exampleWrap .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.exampleWrap .example-list{
+    width: 1.72rem;
+    border-color: #f6f6f6;
+    text-align: center;
+    height: auto;
+}
+.exampleWrap .example-list .example-img{
+    width: 1.72rem;
+    height: 0.88rem;
+}
+.exampleWrap .example-list p.text{
+    font-size: 0.12rem;
+    color: #000;
+    line-height: 0.25rem;
+}
+
+/*********************新闻资讯*********************/
+.newsWrap .news-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.16rem;
+}
+.newsWrap .news-list li{
+    width: 0.65rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    text-align: center;
+    font-size: 0.12rem;
+    color: #000;
+}
+.newsWrap .news-list li.active{
+    background: #00a2ff;
+}
+.newsWrap .cont-list .list-right .news-title,
+.newsWrap .cont-list .list-right .news-text{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+}
+
+
+/*********************新闻资讯*********************/
+.newsWrap .cont-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.1rem;
+}
+.newsWrap .cont-list:last-child{
+    margin-bottom: 0;
+}
+.newsWrap .cont-list .list-left{
+    min-width: 0.76rem;
+    height: 0.76rem;
+    text-align: center;
+    background: #707070;
+    font-size: 0.1rem;
+    line-height: 0.16rem;
+    color: #fff;
+    box-shadow: 0 0 0.05rem #f1f1f1;
+}
+.newsWrap .cont-list .list-left .data{
+    font-size: 0.14rem;
+    line-height: 0.2rem;
+    margin-top: 0.03rem;
+}
+.newsWrap .cont-list .list-right{
+    height: 0.76rem;
+    line-height: 0.18rem;
+    padding: 0.05rem 0.1rem;
+}
+.newsWrap .cont-list .list-right .news-title{
+    font-size: 0.12rem;
+    color: #000;
+}
+.newsWrap .cont-list .list-right .news-text{
+    font-size: 0.1rem;
+    color: #707070;
+}
+
+
+
+
+
